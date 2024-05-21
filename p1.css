@@ -170,7 +170,7 @@ span:hover{
 }
 
 .skills-bar .bar {
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .skills-bar .bar .info span {
@@ -185,7 +185,7 @@ span:hover{
 
 .skills-bar .bar .progress-line {
   position: relative;
-  height: 10px;
+  height: 8px;
   width: 550px;
   background: #f0f0f0;
   border-radius: 10px;
@@ -210,20 +210,26 @@ span:hover{
   }
 }
 
-.progress-line .html {
+.progress-line .python {
   width: 85%;
 }
-.progress-line .css {
-  width: 80%;
+.progress-line .html {
+  width: 90%;
 }
-.progress-line .bootstrap {
-  width: 70%;
+.progress-line .css {
+  width: 88%;
 }
 .progress-line .javascript {
-  width: 50%;
+  width: 80%;
 }
-.progress-line .c {
-  width: 50%;
+.progress-line .react {
+  width: 70%;
+}
+.progress-line .bootstrap {
+  width: 90%;
+}
+.progress-line .sql {
+  width: 70%;
 }
 
 .bar .progress-line span::before {
@@ -252,20 +258,26 @@ span:hover{
   border-radius: 3px;
 }
 
-.progress-line .html::after {
+.progress-line .python::after {
   content: "85%";
 }
-.progress-line .css::after {
-  content: "80%";
+.progress-line .html::after {
+  content: "90%";
 }
-.progress-line .bootstrap::after {
-  content: "70%";
+.progress-line .css::after {
+  content: "88%";
 }
 .progress-line .javascript::after {
-  content: "50%";
+  content: "80%";
 }
-.progress-line .c::after {
-  content: "50%";
+.progress-line .react::after {
+  content: "70%";
+}
+.progress-line .bootstrap::after {
+  content: "90%";
+}
+.progress-line .sql::after {
+  content: "70%";
 }
 
 .navbar.solid {
@@ -288,17 +300,18 @@ span:hover{
 }
 
 .work-arrow {
-  margin: 2rem 0;
+  margin: 3rem 0;
+  
 }
 
 .work-arrow a {
   font-size: 1.08rem;
   font-weight: 600;
   text-decoration: none;
-  color: #B85042;
+  color: #5ab5da;
 }
 
-.work-arrow-2 {
+/* .work-arrow-2 {
   margin: 2rem 0;
 }
 
@@ -307,11 +320,157 @@ span:hover{
   text-decoration: none;
   color: #B85042;
   display: none;
+} */
+
+
+/* Portfolio Section */
+/* Portfolio section styles */
+.portfolio {
+  padding: 50px 0;
 }
+
+.proj-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-content .proj-1,
+.portfolio-content .proj-2,
+.portfolio-content .proj-3, 
+.portfolio-content .proj-4,
+.portfolio-content .proj-5,
+.portfolio-content .proj-6
+{
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.proj1-details,
+.proj2-details,
+.proj3-details,
+.proj4-details,
+.proj5-details ,
+.proj6-details 
+ {
+  background-color: #2A2D3E;
+  padding: 20px;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.proj1-details:hover,
+.proj2-details:hover,
+.proj3-details:hover,
+.proj4-details:hover,
+.proj5-details:hover,
+.proj6-details:hover
+  {
+  transform: translateY(-10px);
+}
+
+.proj1-details img,
+.proj2-details img,
+.proj3-details img,
+.proj4-details img,
+.proj5-details img,
+.proj6-details img
+ {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.proj1-details h2,
+.proj2-details h2,
+.proj3-details h2, 
+.proj4-details h2,
+.proj5-details h2,
+.proj6-details h2
+{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.proj1-details p,
+.proj2-details p,
+.proj3-details p,
+.proj4-details p,
+.proj5-details p,
+.proj6-details p
+  {
+  margin-bottom: 20px;
+}
+
+.proj1-details button,
+.proj2-details button,
+.proj3-details button ,
+.proj4-details button,
+.proj5-details button,
+.proj6-details button
+{
+  background-color: #FF6F61;
+  border: none;
+  padding: 10px 20px;
+  color: #F1F4FFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.proj1-details button:hover,
+.proj2-details button:hover,
+.proj3-details button:hover,
+.proj4-details button:hover,
+.proj5-details button:hover,
+.proj6-details button:hover
+ {
+  background-color: #E44D26;
+}
+/* .portfolio {
+  padding: 50px 0;
+}
+
+.proj-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #555;
+} */
 
 /* ////.....Portfolio......///// */
 
-.portfolio {
+ /* .portfolio {
   background: #9FB1BCFF;
   padding: 6rem 0;
   height: auto;
@@ -338,8 +497,8 @@ span:hover{
   border-radius: 50%;
   box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
   margin-right: 1.7rem;
-}
-
+} 
+ 
 .proj-1 .proj1-details {
   width: 32rem;
 }
@@ -357,7 +516,7 @@ span:hover{
 .proj-1 .proj1-details p {
   font-size: 1.3rem;
   color: #07374a;
-  font-weight: 600;
+  font-weight: 600; 
 }
 
 .proj-1 .proj1-details button {
@@ -395,7 +554,7 @@ span:hover{
 
 /* ////.....proj2.....//// */
 
-.proj-2 {
+/* .proj-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -417,7 +576,7 @@ span:hover{
 
 .proj-2 .proj2-details i {
   font-size: 1.5rem;
-  color: #7A2048;
+  color: #7A2048; 
 }
 
 .proj-2 .proj2-details h2 {
@@ -462,11 +621,11 @@ span:hover{
 .proj-2 .proj2-details button:hover a,
 .proj-2 .proj2-details button:hover .fas {
   color: #f0f0e6;
-}
+}*/
 
 /* project-3 */
 
-.proj-3 {
+/*.proj-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -483,7 +642,7 @@ span:hover{
 }
 
 .proj-3 .proj3-details {
-  width: 32rem;
+  width: 32rem; 
 }
 
 .proj-3 .proj3-details i {
@@ -535,7 +694,7 @@ span:hover{
   color: #f0f0e6;
 }
 
-/* .more-work {
+ .more-work {
   text-align: center;
   margin: 3rem 0 1rem 0;
 }
@@ -554,7 +713,7 @@ span:hover{
 
 .more-work a:hover {
   border-bottom: 2px solid #f0f0e6;
-} */
+}  */
 
 /* ////......Contact......///// */
 
