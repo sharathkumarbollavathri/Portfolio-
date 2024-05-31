@@ -1003,7 +1003,7 @@ header {
 
 .menu-items a {
   text-decoration: none;
-  color: #E7E8D1;
+  color: #e6ea88;
   font-size: 1.2rem;
   padding: 0.3rem;
 }
@@ -1304,10 +1304,12 @@ span:hover{
 .portfolio-content .proj-6
 {
   flex: 1;
-  min-width: 300px;
+  min-width: 370px;
   margin: 20px;
   text-align: center;
 }
+
+
 
 .proj1-details,
 .proj2-details,
@@ -1354,6 +1356,7 @@ span:hover{
 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  color: #FFA500;
 }
 
 .proj1-details p,
@@ -1364,6 +1367,7 @@ span:hover{
 .proj6-details p
   {
   margin-bottom: 20px;
+  color:#ADD8E6;
 }
 
 .proj1-details button,
@@ -1391,6 +1395,27 @@ span:hover{
 .proj6-details button:hover
  {
   background-color: #E44D26;
+  
+}
+.proj1-details button a,
+.proj2-details button a,
+.proj3-details button a ,
+.proj4-details button a,
+.proj5-details button a,
+.proj6-details button a
+{
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff ;
+}
+.proj1-details button a:hover,
+.proj2-details button a:hover,
+.proj3-details button a:hover ,
+.proj4-details button a:hover,
+.proj5-details button a:hover,
+.proj6-details button a:hover
+{
+  color: #87a9de;
 }
 /* .portfolio {
   padding: 50px 0;
